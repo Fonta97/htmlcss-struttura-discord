@@ -54,6 +54,7 @@ a{
 .downloadsection{
     background-color: #ef82ef;
     min-height: 300px;
+    flex-basis: 40%;
     padding: 5% 20%;
     margin: 5%;
     border: dashed;
@@ -93,4 +94,77 @@ a{
     justify-content: center;
     flex-direction: row-reverse;
     padding: 5% 10%;
+}
+
+
+/* debug */
+.text2{
+    background-color: #228b22;
+    min-height: 800px;
+    width: 60%;
+    border: dashed;
+}
+
+
+.containerfooter {
+    display: flex;
+    flex-direction: column;
+    background-color: #00018a;
+    min-height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.data{
+    display: flex;
+    background-color: #23262b;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+
+.footertext{
+    background-color: #21b3aa;
+    min-height: 500px;
+    width: 10%;
+    border: dashed white;
+}
+
+.footerlang{
+    background-color: #f18180;
+    min-height: 500px;
+    width: 20%;
+    border: dashed;
+}
+
+.footerend {
+    background-color: #23262b;
+    display: flex;
+    justify-content: center;
+    padding: 1% 1% 1% 1%;
+    width: 100%;
+}
+
+.buttoncontainer{
+    width: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: dashed black;
+    background-color: #ffb6c1;
+}
+
+.bottoma{
+    background-color: #ffb6c1;
+    padding: 1%;
+    border: dashed black;
 }
