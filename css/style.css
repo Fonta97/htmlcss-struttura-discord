@@ -43,17 +43,54 @@ a{
 
 .containermain{
     display: flex;
+    flex-direction: column;
     background-color: #00018a;
     min-height: 500px;
     width: 100%;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .downloadsection{
     background-color: #ef82ef;
-    margin: 5% 20%;
-    min-width: 500px;
     min-height: 300px;
+    padding: 5% 20%;
+    margin: 5%;
+    border: dashed;
+}
+
+.description1{
+    display: flex;
+    background-color: white;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+
+.immagine{
+    background-color: #1f91ff;
+    min-height: 500px;
+    width: 40%;
+    border: dashed;
+}
+
+.text{
+    background-color: #fec1cb;
+    min-height: 500px;
+    width: 20%;
+    border: dashed;
+}
+
+.description2{
+    display: flex;
+    background-color: #d2d3d2;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 5% 10%;
 }
