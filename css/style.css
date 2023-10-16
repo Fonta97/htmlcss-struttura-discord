@@ -109,8 +109,7 @@ a{
 .containerfooter {
     display: flex;
     flex-direction: column;
-    background-color: #00018a;
-    min-height: 700px;
+    height: 100%;
     width: 100%;
     align-items: center;
     justify-content: center;
