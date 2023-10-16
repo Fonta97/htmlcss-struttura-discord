@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Whitney', Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: gray;
+}
+
+/* header con flexbox */
+.containerheader{
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    padding: 1% 1% 1% 1%;
+}
+
+.logoheader {
+    border: dashed;
+    padding: 1% 10% 1% 1%;
+    background-color: #daa520;
+}
+
+.linkheader {
+    border: dashed;
+    padding: 1% 10% 1% 10%;
+    background-color: #daa520;
+}
+
+.loginheader {
+    border: dashed;
+    padding: 1% 1% 1% 10%;
+    background-color: #daa520;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* main setting */
+
+.containermain{
+    display: flex;
+    background-color: #00018a;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.downloadsection{
+    background-color: #ef82ef;
+    margin: 5% 20%;
+    min-width: 500px;
+    min-height: 300px;
+}
